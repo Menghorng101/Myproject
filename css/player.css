@@ -1,0 +1,408 @@
+:root {
+  --color-one: #353535;
+  --color-two: #939393;
+  --color-button: rgb(49, 66, 83);
+  --color-title: #2c3e50;
+  --color-name: #3f3844;
+  --color-footer: #919191;
+}
+
+/* section hero */
+.section-hero {
+  padding: 1rem;
+}
+
+.content-hero {
+  padding: 0 2rem;
+}
+
+.title-hero {
+  text-align: center;
+  margin: 5rem 0;
+  padding: 0 2rem;
+  color: var(--color-title);
+}
+
+.center-hero-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-img {
+  max-width: 80%;
+}
+
+.hero-img > img {
+  max-width: 100%;
+}
+
+.name-hero {
+  margin-bottom: 1rem;
+  text-align: center;
+  font-weight: bold;
+  color: var(--color-name);
+}
+
+.description-hero {
+  margin: 0 6rem;
+}
+
+.description-hero > p {
+  margin: 1.5rem 0 1rem 0;
+  text-indent: 50px;
+  text-align: justify;
+  color: var(--color-one);
+}
+
+.description-hero > p > span {
+  font-weight: bold;
+}
+
+.content-hero > .button {
+  margin-left: 6rem;
+}
+
+@media screen and (max-width: 900px) {
+  .title-hero {
+    font-size: 32px;
+  }
+  .hero-img {
+    max-width: 100%;
+  }
+  
+  .hero-img > img {
+    max-width: 100%;
+  }
+  .description-hero {
+    margin: 0;
+  }
+  .content-hero > .button {
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .title-hero {
+    font-size: 32px;
+  }
+  .hero-img {
+    max-width: 100%;
+  }
+  
+  .hero-img > img {
+    max-width: 100%;
+  }
+  .description-hero {
+    margin: 0;
+  }
+  .content-hero > .button {
+    margin-left: 0;
+  }
+}
+
+/* end of section hero */
+
+/* section content */
+.section-players-manutd {
+  padding: 1rem;
+}
+
+.players-manutd-grid-1x3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  padding: 0 2rem;
+}
+
+.card-players {
+  background-color: #f4f6f6;
+  padding: 1.5rem;
+  margin-top: 3rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+}
+
+.card-players:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.8);
+}
+
+.img-players {
+  max-width: 100%;
+  background-color: #656565;
+}
+
+.img-players > img {
+  max-width: 100%;
+}
+
+.data {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.name-players {
+  text-align: left;
+  font-weight: bold;
+  color: var(--color-name);
+}
+
+.flag {
+  max-width: 40px;
+}
+
+.flag > img {
+  max-width: 100%;
+}
+
+.positions-players {
+  color: var(--color-name);
+}
+
+.rate {
+  display: flex;
+  margin-top: 0.5rem;
+  color: var(--color-one);
+}
+
+.rate-number {
+  margin-right: 0.5rem;
+  font-weight: bold;
+}
+
+.fa-solid {
+  margin-right: 0.2rem;
+}
+
+.view {
+  margin-left: 0.5rem;
+  font-weight: bold;
+}
+
+.description-players {
+  margin: 0.5rem 0 1rem 0;
+  text-align: left;
+  color: var(--color-one);
+}
+
+.content-hero > .button > i {
+  margin: 0;
+}
+
+@media screen and (max-width: 980px) {
+  .players-manutd-grid-1x3 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .players-manutd-grid-1x3 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+/* end of section content */
+
+/* section worst */
+.section-worst-players {
+  padding: 1rem;
+}
+
+.title-worst-players {
+  margin: 5rem 0;
+  text-align: center;
+  color: var(--color-title);
+  text-transform: capitalize;
+  padding: 0 2rem;
+}
+
+.worst-grid-1x4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  padding: 0 2rem;
+}
+
+.card-worst {
+  background-color: white;
+  padding: 0.8rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+}
+
+.card-worst:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.8);
+}
+
+.worst-img {
+  max-width: 100%;
+}
+
+.worst-img > img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.name-worst-players {
+  color: var(--color-name);
+  margin: 0.5rem 0 0.2rem 0;
+}
+
+.card-worst > p {
+  color: var(--color-one);
+}
+
+.btn-worst {
+  display: block;
+  margin-top: 0.5rem;
+  background-color: #808b96;
+  border-radius: 5px;
+  padding: 0.4rem;
+  width: 89px;
+  font-size: 0.9rem;
+  color: white;
+}
+
+.btn-worst:hover {
+  opacity: 0.8;
+}
+
+.btn-worst > i {
+  margin: 0;
+}
+
+@media screen and (max-width: 900px) {
+  .worst-grid-1x4 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media screen and (max-width: 768px) {
+  .worst-grid-1x4 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+/* end of section worst */
+
+/* section goalden boy */
+.section-goalden-boy {
+  padding: 1rem;
+}
+
+.title-goalden-boy {
+  text-align: center;
+  margin: 5rem 0;
+  color: var(--color-title);
+  font-weight: bold;
+  padding: 0 2rem;
+}
+
+.grid-goalden-boy {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 1rem;
+  padding: 0 2rem;
+}
+
+.center-goalden-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-goalden-boy {
+  max-width: 90%;
+}
+
+.img-goalden-boy > img {
+  max-width: 100%;
+}
+
+.desc-goaldden-boy {
+  margin-left: 2rem;
+}
+
+.desc-goaldden-boy > h3 {
+  text-align: center;
+  color: var(--color-name);
+  font-weight: bold;
+}
+
+.desc-goaldden-boy > p {
+  text-indent: 50px;
+  text-align: justify;
+  margin: 0.5rem 0 0.7rem 0;
+}
+.desc-goaldden-boy > .button {
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+  .grid-goalden-boy {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .img-goalden-boy {
+    max-width: 100%;
+  }
+  
+  .img-goalden-boy > img {
+    max-width: 100%;
+  }
+  .desc-goaldden-boy {
+    margin-left: 0;
+  }
+}
+/* youngsters */
+.youngsters {
+  margin-top: 4rem;
+}
+
+.grid-youngsters {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  padding: 0 2rem;
+}
+
+.card-youngsters {
+  background-color: white;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+}
+
+.card-youngsters:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.8);
+}
+
+.youngsters-img {
+  max-width: 100%;
+}
+
+.youngsters-img > img {
+  max-width: 100%;
+}
+
+.name-youngsters {
+  color: var(--color-name);
+  margin: 0.8rem 0 0.2rem 0;
+}
+
+.desc-youngsters > p {
+  color: var(--color-one);
+  margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .grid-youngsters {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+/* end of youngsters */
+/* end of section goalden boy */

@@ -1,0 +1,70 @@
+:root {
+  --color-one: #353535;
+  --color-two: #939393;
+  --color-button: rgb(49, 66, 83);
+  --color-title: #2c3e50;
+  --color-name: #3f3844;
+  --color-footer: #919191;
+}
+
+.section-managers {
+  padding: 1rem;
+}
+
+.title-managers {
+  margin-top: 5rem;
+  text-align: center;
+  color: var(--color-title);
+  padding: 0 2rem;
+}
+
+.grid-managers {
+  display: grid;
+  grid-template-columns:repeat(2, 1fr);
+  gap: 1rem;
+  padding: 0 2rem;
+}
+
+.card-managers {
+  background-color: white;
+  border-radius: 10px;
+  padding: 1rem;
+  margin-top: 3rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+}
+
+.card-managers:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.8);
+}
+
+.img-manaers {
+  max-width: 100%;
+}
+
+.img-manaers > img {
+  max-width: 100%;
+}
+
+.desc-managers {
+  margin: 0.5rem 0 0.8rem 0;
+}
+
+.name-managers {
+  color: var(--color-name);
+  text-align: center;
+}
+
+.desc-managers > p {
+  color: var(--color-one);
+  margin-top: 0.2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .title-managers {
+    font-size: 32px;
+  }
+  .grid-managers {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
