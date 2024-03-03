@@ -18,19 +18,6 @@
   color: var(--color-title);
 }
 
-.center-logo-manutd {
-  display: flex;
-  justify-content: center;
-}
-
-.logo-manutd {
-  max-width: 150px;
-}
-
-.logo-manutd > img {
-  max-width: 100%;
-}
-
 .grid-content-manutd {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -109,17 +96,3 @@
   }
 }
 
-/* .center-icon {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 4rem;
-}
-
-.icon-manutd {
-  max-width: 100px;
-}
-
-.icon-manutd > img {
-    max-width: 100%;
-} */
