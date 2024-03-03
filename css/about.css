@@ -220,13 +220,7 @@
     display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
-  .content-top .icon {
-    max-width: 120px;
-  }
 
-  .content-top .icon img {
-    max-width: 100%;
-  }
   .content-bottom .logos-center .logo {
     max-width: 100%;
   }
