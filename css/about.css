@@ -47,7 +47,7 @@
   margin-bottom: 1rem;
 }
 
-.title-info > a{
+.title-info > a {
   color: var(--color-title);
 }
 
@@ -71,14 +71,133 @@
   border-radius: 5px;
   width: 0;
   background-color: rgb(184, 0, 0);
-  transition: width .3s ease;
+  transition: width 0.3s ease;
 }
 
 .title:hover:before,
-.info:hover:before{
+.info:hover:before {
   width: 100%;
 }
 
+/* section fixtures */
+.section-fixtures {
+  padding: 1rem;
+}
+
+.sub-title {
+  text-align: center;
+  color: var(--color-title);
+  text-transform: capitalize;
+  margin: 3rem 0;
+}
+
+.grid-fixtures {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  align-items: center;
+  padding: 0 2rem;
+}
+
+.card-fixtures {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 1rem 4rem 8rem;
+}
+
+.card-fixtures:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.content-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content-top .icon-pre {
+  max-width: 38px;
+}
+.content-top .icon-pre img {
+  max-width: 100%;
+}
+
+.content-top .icon {
+  max-width: 80px;
+}
+
+.content-top .icon img {
+  max-width: 100%;
+}
+
+.content-top .desc {
+  margin-top: 0.8rem;
+}
+
+.content-top .desc p {
+  text-align: center;
+  line-height: 1.5;
+  color: #888585;
+  text-transform: capitalize;
+}
+
+.content-bottom {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+
+.logos-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-bottom .logos-center .logo {
+  max-width: 80%;
+}
+
+.content-bottom .logos-center .logo img {
+  max-width: 100%;
+}
+
+.content-bottom .result {
+  display: flex;
+  margin: 0 1.5rem;
+}
+
+.result .score {
+  font-size: 1.5rem;
+  background: #000;
+  color: #fff;
+  font-weight: bolder;
+  padding: 0.4rem 0.5rem;
+  margin: 0 -0.2rem;
+}
+
+.result .radius {
+  border-radius: 5px;
+}
+
+.title-club {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 0.5rem;
+}
+
+.title-club span {
+  margin: 0 1.5rem;
+  font-size: 0.8rem;
+  text-transform: capitalize;
+}
+/* end of section fixtures */
 
 @media screen and (max-width: 900px) {
   .grid-content-manutd {
@@ -92,7 +211,27 @@
     grid-template-columns: repeat(1, 1fr);
   }
   .title-manutd {
-    font-size: 32;
+    font-size: 32px;
+  }
+  .card-fixtures {
+    padding: 1rem 2rem 8rem;
+  }
+  .grid-fixtures {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .content-top .icon {
+    max-width: 120px;
+  }
+
+  .content-top .icon img {
+    max-width: 100%;
+  }
+  .content-bottom .logos-center .logo {
+    max-width: 100%;
+  }
+
+  .content-bottom .logos-center .logo img {
+    max-width: 100%;
   }
 }
-
