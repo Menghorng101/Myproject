@@ -159,6 +159,7 @@ a {
 .btn-one:hover {
   background-color: rgba(0, 0, 0, 0.5);
   color: white;
+  letter-spacing: .5px;
 }
 /* end of section image */
 
