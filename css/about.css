@@ -102,7 +102,7 @@
 .card-fixtures {
   background-color: #fff;
   border-radius: 10px;
-  padding: 1rem 4rem 8rem;
+  padding: 1rem 2rem 8rem;
 }
 
 .card-fixtures:hover {
@@ -156,7 +156,7 @@
 }
 
 .content-bottom .logos-center .logo {
-  max-width: 80%;
+  max-width: 65%;
 }
 
 .content-bottom .logos-center .logo img {
@@ -186,10 +186,11 @@
   text-align: center;
   align-items: center;
   justify-content: center;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   text-transform: uppercase;
   font-weight: bold;
   margin-top: 0.5rem;
+  color: var(--color-name);
 }
 
 .title-club span {
@@ -222,10 +223,13 @@
   }
 
   .content-bottom .logos-center .logo {
-    max-width: 100%;
+    max-width: 80%;
   }
 
   .content-bottom .logos-center .logo img {
     max-width: 100%;
+  }
+  .title-club{
+    font-size: 1.2rem;
   }
 }
