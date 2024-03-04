@@ -197,6 +197,8 @@
   margin: 0 1.5rem;
   font-size: 0.8rem;
   text-transform: capitalize;
+  background: #E5E7E9;
+  padding: .1rem .3rem;
 }
 /* end of section fixtures */
 
@@ -214,18 +216,13 @@
   .title-manutd {
     font-size: 32px;
   }
-  .card-fixtures {
-    padding: 1rem 2rem 8rem;
-  }
   .grid-fixtures {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
-
   .content-bottom .logos-center .logo {
     max-width: 80%;
   }
-
   .content-bottom .logos-center .logo img {
     max-width: 100%;
   }
